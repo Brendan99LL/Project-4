@@ -73,7 +73,7 @@
 <p align = "center">
 <img src ="./ReadMe_Images/Classification_Report.png" alt = "Classification Report" width ="600">
 </p>
-<p></p>
+<p>The precision of the model shows the amount of cases that were predicted positive, how many of them were actually positive.  This value goes for a negative diagnosis as well, out of the cases were predicted negative, how many were actually negative.  Based on this classification report, the logistic regression model has a 95% precision for predicting a positive diagnosis and a 94% precision for predicting a negative diagnosis.  These results for precision should be as high as possible, and have a rating of over 90% would be considered very high.  In this case, from all the cases that are predicted as positive, 95% of the </p>
 
 <h2>References</h2>
 <ul>
