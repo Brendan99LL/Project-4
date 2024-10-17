@@ -70,7 +70,7 @@
 <img src ="./ReadMe_Images/Logistic_Regression_Prediction_VS_Actual.png" alt = "Prediction VS Actual" width ="600">
 </p>
 <p>This dataframe only shows the initial results of the model, but there are many patients to still go through.  A classification report can help create the calculations for the overall efficiency of the model.  The following classification report shows the results of the predictions created by the logisitc regression model: </p>
-<p align = "center"
+<p align = "center">
 <img src ="./ReadMe_Images/Classification_Report.png" alt = "Classification Report" width ="600">
 </p>
 <p></p>
