@@ -61,7 +61,15 @@
 <p align = "center">
 <img src ="./ReadMe_Images/Negative_Polyuria.png" alt = "Negative Diabetes with/without Polyuria" width ="600">
 </p>
-<p></p>
+<p>This hi</p>
+
+<h2>Model Analysis</h2>
+<h3>Logistic Regression</h3>
+<p>When askign to predict if someone could have diabetes, the final result will be one of two responses, positive or negative.  With the various symptoms, age, and gender, a person using any model would only get one of those two predictions.  In this case, a logisitic regression would be a good first model to attempt to predict an accurate diagnosis for diabetes.  The independent variables for this kind of model would be the risk symptoms, age, and gender that each patient would report.  Since they are not affected by anything else in the data, they will be factors that determine the final prediction.  The dependent variable is the diagnosis for diabetes.  Based on the pattern of symptoms, age, and gender these will determine if that person is at risk for acquiring diabetes.  The logisitic regression model is ideal in showing us the actual diagnosis of a person based on the dataset compared the prediction made for that person.  The following dataframe shows a sample of the results created by this logistic regression model: </p>
+<p align = "center">
+<img src ="./ReadMe_Images/Logistic_Regression_Prediction_VS_Actual.png" alt = "Prediction VS Actual" width ="600">
+</p>
+
 
 
 
