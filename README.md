@@ -16,6 +16,9 @@
 <p>
   <b>Since the notebook of the coding for this project was done through Google Colab, the dataset must be uploaded to the drive within the code file first.</b>
 </p>
+<p>
+  Visualizations were created for the purposes of this ReadMe file, however in attempts to optimize the style of the visuals for the presentation, the models were run multiple times, showing different results for each runthrough.  The folder named <i>Presentation_Images</i> holds images that were used in the presentation.  The folder named <i>ReadMe_Images</i> holds images that were used in this ReadMe file.  The varying results is shown within the images, but the same visualization was used for its respective purpose.
+</p>
 
 <h2>Project Overview</h2>
 <ul>
@@ -113,6 +116,9 @@
   <li>Accuracy: </li>
   <img src ="./ReadMe_Images/NN_Model_Metrics_3.png" alt = "Attempt 3 Metrics" width ="450">
 </ul>
+
+<h2>Conclusion</h2>
+<p>The logistic regression model and the various optimized neural network models have shown high accuracy scores for their effectivess in predicted the correct diagnosis for diabetes based on the inputs of each individual person.  Both networks have recognized patterns that taught the machine to properly predict the diagnosis.  Both of these models can be helpful for healthcare professional to properly diagnose patients or start to create plans for patients, in terms of homestyle or medication needs, before the risk becomes a chronic condition.  Even though these models have high accuracy scores, everyone should rely on the results given by an actual doctor as these models hold room for error.  These models would be ideal to implement in a program that allows individuals to input the proper responses for their conditions, age, and gender and most likely receive an accurate prediction if they are at risk of contracting diabetes.  The logistic regression model would be the better model to implement for this program.  Even thought the neural network models were able to predict accurate predictions with a higher accuracy score, the logistic regression is easier for people to understand where the logic behind the machine learning comes from.  With neural networks, it is more difficult to grasp how machines teach themselves using these functions.  In this case, a simpler model would be the better option for a program to run the results of the model.</p>
 
 <h2>References</h2>
 <ul>
