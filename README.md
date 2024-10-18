@@ -77,6 +77,10 @@
 <p>The recall of the model takes into consideration all the positive cases, and how many were predicted correctly.  This goes for a negative diagnosis as well, it takes into consideration all the negative cases, and how many of predicted to be negative.  The recall value should be as high as possible, with a recall of 96% for a positive diagnosis and a 93% for a negative diagnosis.</p>
 <p>Simply put, the F1-score can be explained as the combination of the precision and recall scores.  This value can be used to just have one value to explain how many accurate predictions were made.  If the precision and recall values were smaller it would be a lot harder to compare them, which is why the F1-score can help as a harmonic average by eliminating the extreme values from both.  This score can show how well the model is working, and with a positive diagnosis F1-score of 95% and negative diagnosis F1-score of 93%, the model seems to be running effectively and efficiently.</p>
 <p>The accuracy score tells us the ratio of correctly predicted predictions to the total amount of predictions made.  This model is reporting an accuracy score of 95%, so it can be considered effective for its function.</p>
+<p>The following visualization is a confusion matrix that shows the instances caught by the model.  Since the model is not 100% accurate, and people should still reach out to a healthcare professional to have a proper diagnosis, there can be some errors in the model.  This confusion matrix is a good visualization because it can evaluate how well the logistic regression model performs by comparing the predicted responses to the actual diagnoses.</p>
+<p align = "center">
+<img src ="./ReadMe_Images/Confusion_Matrix.png" alt = "Confusion Matrix" width ="450">
+</p>
 
 <h2>References</h2>
 <ul>
