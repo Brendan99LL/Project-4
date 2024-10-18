@@ -124,4 +124,5 @@
 <ul>
   <li>Dataset:  https://www.kaggle.com/datasets/rcratos/diabetes-risk-prediction</li>
   <li>Columbia University Bootcamp Lectures:  https://git.bootcampcontent.com/Columbia-University/CU-VIRT-DATA-PT-04-2024-U-LOLC.git</li>
+  <li>Google Colab Ai:  As we were writing the code for various reasons, the AI from Google Colab automatically suggested finishing the code with its suggestions, but the suggestion made by this AI was going to be exactly the code we were planning on using.  Our initial reference for the codes used comes from the Columbia University Bootcamp Lectures, but the AI shared the same codes.</li>
 </ul>
