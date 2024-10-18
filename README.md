@@ -61,7 +61,7 @@
 <p align = "center">
 <img src ="./ReadMe_Images/Negative_Polyuria.png" alt = "Negative Diabetes with/without Polyuria" width ="600">
 </p>
-<p>This hi</p>
+<p>This histogram illustrates the fact that symptoms used in the dataset do not directly confirm a positive diagnosis for diabetes.  The frequency of people that experienced polyuria while having a negative diagnosis for diabetes is similar to the frequency of people that experienced symptoms like delayed healing while being positive for diabetes.</p>
 
 <h2>Model Analysis</h2>
 <h3>Logistic Regression</h3>
@@ -85,11 +85,37 @@
 <p>The top right rectangle of the confusion matrix shows the false positive value, which shows the amount of instances the model incorrectly predicted that are actually negative.  With this model, there are 4 instances that the logistic regression model incorrectly predicted as positive.  The bottom left rectangle shows the false negative, which shows the amount of instances the model incorrectly predicted that are actually positive.  With this model, there are 3 instances that the logistic regression model incorrectl predicted as negative.  Both of these false values are low, which shows the effectiveness of the model.  In this case, it is a good thing that the false negative is slightly higher than the false positive.  Giving someone a false positive result will have less consequences than a false negative.  If someone received a false negative result, and it turns out that they have a positive diagnosis after seeing the doctor, that is more life altering than receiving a positive prediction, but the actual diagnosis turns out to be negative.</p>
 <p>The bottom right rectangle of the confusion matrix shows the true positive value, which shows the amount of instances the model correctly predicted that are actually positive.  With this model, there are 73 instances that the logistic regression model correctly predicted as positive.</p>
 
-<h3>Neural Network</h3>
+<h4>Neural Network</h4>
 <p>A neural network would work well as a model to predict a diabetes diagnosis, however no one knows what a machine is thinking and how it will teach itself.  Even though a neural network is more complicated to implement than a logistic regression, a neural network is good in the sense that it improves its accuracy over time. 
- For this project, three optimized neural networks were created to form the highest accuracy possible.  </p>
+ For this project, three optimized neural networks were created to form the highest accuracy possible.  The following model summaries show the hidden layers, activation functions, epochs and accuracy scores of the optimization attempts: </p>
+
+<h5>Neural Network Optimization Attempt # 1</h5>
+<ul>
+  <li>Activation Functions:  Relu, Sigmoid, Sigmoid</li>
+  <li>Hidden Layers:  16, 16, 1</li>
+  <li>Epochs:  100</li>
+  <li>Accuracy: </li>
+  <img src ="./ReadMe_Images/NN_Model_Metrics_1.png" alt = "Attempt 1 Metrics" width ="450">
+</ul>
+<h5>Neural Network Optimization Attempt # 2</h5>
+<ul>
+  <li>Activation Functions: Relu, Sigmoid, Elu, Sigmoid</li>
+  <li>Hidden Layers:  30, 20, 10, 1</li>
+  <li>Epochs:  100</li>
+  <li>Accuracy: </li>
+  <img src ="./ReadMe_Images/NN_Model_Metrics_2.png" alt = "Attempt 2 Metrics" width ="450">
+</ul>
+<h5>Neural Network Optimization Attempt # 3</h5>
+<ul>
+  <li>Activation Functions:  Relu, Relu, Elu, Sigmoid</li>
+  <li>Hidden Layers:  25, 25, 25, 1</li>
+  <li>Epochs:  100</li>
+  <li>Accuracy: </li>
+  <img src ="./ReadMe_Images/NN_Model_Metrics_3.png" alt = "Attempt 3 Metrics" width ="450">
+</ul>
 
 <h2>References</h2>
 <ul>
   <li>Dataset:  https://www.kaggle.com/datasets/rcratos/diabetes-risk-prediction</li>
+  <li>Columbia University Bootcamp Lectures:  https://git.bootcampcontent.com/Columbia-University/CU-VIRT-DATA-PT-04-2024-U-LOLC.git</li>
 </ul>
