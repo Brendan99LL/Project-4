@@ -81,6 +81,9 @@
 <p align = "center">
 <img src ="./ReadMe_Images/Confusion_Matrix.png" alt = "Confusion Matrix" width ="450">
 </p>
+<p>The top left rectangle of the confusion matrix shows the true negative value, which shows the amount of instances the model correctly predicted that are actually negative.  With this model, there are 50 instances that the logistic regression model correctly predicted as negative.</p>
+<p>The top right rectangle of the confusion matrix shows the false positive value, which shows the amount of instances the model incorrectly predicted that are actually negative.  With this model, there are 4 instances that the logistic regression model incorrectly predicted as positive.  The bottom left rectangle shows the false negative, which shows the amount of instances the model incorrectly predicted that are actually positive.  With this model, there are 3 instances that the logistic regression model incorrectl predicted as negative.  Both of these false values are low, which shows the effectiveness of the model.  In this case, it is a good thing that the false negative is slightly higher than the false positive.  Giving someone a false positive result will have less consequences than a false negative.  If someone received a false negative result, and it turns out that they have a positive diagnosis after seeing the doctor, that is more life altering than receiving a positive prediction, but the actual diagnosis turns out to be negative.</p>
+<p>The bottom right rectangle of the confusion matrix shows the true positive value, which shows the amount of instances the model correctly predicted that are actually positive.  With this model, there are 73 instances that the logistic regression model correctly predicted as positive.</p>
 
 <h2>References</h2>
 <ul>
